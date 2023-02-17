@@ -37,10 +37,6 @@ body {
     text-align: left;
 }
 
-#content, #featured { 
-    font-family: Georgia,Cambria,"Times New Roman",Times,serif;
-}
-
 /* Headings */
 h1 {font-size: 2em }
 h2 {font-size: 1.571em}	/* 22px */
@@ -506,3 +502,15 @@ li:first-child .hentry, #content > .hentry {border: 0; margin: 0;}
 
 	#add-comment input[type='submit'] {float: right; margin: 0 .5em;}
 	#add-comment * {margin-bottom: .5em;}
+
+
+/*my ticks*/
+#content, #featured, .paper { 
+    font-family: Georgia,Cambria,"Times New Roman",Times,serif;
+}
+.paper {padding:0; border:none; background-color:transparent; font-size:100%; color:#696969}
+thead th {font-weight:normal; visibility: collapse; display:none;}
+
+/*.toc {margin-top: -1em;}*/
+/*.toc li:first-child {display: none;}*/
+/*.toc li {margin: 1px;}*/
