@@ -54,7 +54,7 @@ of the dynamics and appropriate techniques of modeling and analyzing.</p>
 <p>The Milky Way satellites are consistent with hydrodynamical simulations (EAGLE) in terms of velocity distribution <button class='paper' id="2020ApJ...894...10L">(Li et al. 2020a)</button>.</p>
 </li>
 </ul>
-<h3 id="modeling-the-orbit-distribution-of-satellite-galaxies">Modeling the orbit distribution of satellite galaxies</h3>
+<h3 id="the-orbits-and-masses-of-satellite-galaxies">The orbits and masses of satellite galaxies</h3>
 <ul>
 <li>
 <p>Starting from cosmological simulations, we built a universal and accurate model for the <strong>initial orbit distribution</strong> <button class='paper' id="2020ApJ...905..177L">(Li+ 2020b)</button> and the <strong>specific merger rate</strong> <button class='paper' id="2022ApJ...929..120D">(Dong+ 2022)</button> of infalling satellite galaxies, unifying its mass and redshift dependence. This model can help us better understand the halo structure and serve as the initial condition for semi-analytic models of halo/galaxy formation. </p>
@@ -63,17 +63,17 @@ of the dynamics and appropriate techniques of modeling and analyzing.</p>
 <p>We showed that satellite galaxies of different galactic halos approximately follow the same <strong>present-day orbit distribution</strong> when properly scaled. On this basis, we constructed a universal satellite phase-space distribution function (DF) that is fully consistent with simulations, providing a realistic starting point for dynamical modeling using satellites. <button class='paper' id="2017ApJ...850..116L">(Li et al. 2017</button>, <button class='paper' id="2019ApJ...886...69L">2019)</button>.</p>
 </li>
 </ul>
-<h3 id="measuring-the-mass-and-boundary-of-the-milky-way-mw">Measuring the mass and boundary of the Milky Way (MW)</h3>
+<h3 id="the-dynamical-mass-and-boundary-of-the-milky-way">The dynamical mass and boundary of the Milky Way</h3>
 <p>The virial mass and density profile of our Milky Way (MW) halo are crucial to many astrophysical studies. Most of the methods that have been proposed to constrain the MW mass profile make use of dynamical tracers (see our review paper <button class='paper' id="2020SCPMA..6309801W">Wang+ 2020</button>).</p>
 <ul>
 <li>
-<p>Applying the our <strong>simulation-based DF model</strong> <button class='paper' id="2017ApJ...850..116L">(Li et al. 2017</button>, <button class='paper' id="2019ApJ...886...69L">2019)</button> to the MW satellites, we obtained the <strong>current best constraints of the mass profile of the MW outer halo</strong> <button class='paper' id="2020ApJ...894...10L">(Li+ 2020a)</button>. We also demonstrated how the observed satellite kinematics can be used to verify the galaxy formation models. Specifically, We showed that the MW satellite kinematics matches the EAGLE simulation better than the semi-analytical models. </p>
+<p>Applying the our <strong>simulation-based DF model</strong> <button class='paper' id="2017ApJ...850..116L">(Li et al. 2017</button>, <button class='paper' id="2019ApJ...886...69L">2019)</button> to the MW satellites, we obtained the <strong>current best constraints</strong> of the mass profile of the MW outer halo <button class='paper' id="2020ApJ...894...10L">(Li+ 2020a)</button>. We also demonstrated how the observed satellite kinematics can be used to test the galaxy formation models. Specifically, we showed that the MW satellite kinematics matches the EAGLE simulation better than the semi-analytical models. </p>
 </li>
 <li>
-<p>We developed a novel <strong>data-driven DF</strong> method that is independent of simulations. It can maximize the usage of observed kinematics but remove the dependence on the assumption of functional form or orbit library in conventional DF-like methods. We have applied the new method to measure the MW potential using satellites and globular clusters as tracers. <button class="paper" data-tippy-content="Dynamical modeling with data-driven distribution function &lt;br&gt; Li, Z., Han, J., Qian, Y., Wang, W. et al.">(Li et al. in prep.)</button></p>
+<p>We developed a novel <strong>data-driven DF</strong> method that can maximize the usage of observed kinematics. Unlike conventional DF-like methods, it is independent of the ad-hoc functional forms or orbital libraries. We have applied the new method to measure the MW potential using satellites and globular clusters as tracers. <button class="paper" data-tippy-content="Dynamical modeling with data-driven distribution function &lt;br&gt; Li, Z., Han, J., Qian, Y., Wang, W. et al.">(Li et al. in prep.)</button></p>
 </li>
 <li>
-<p>We further went beyond the equilibrium region. Following recent progress in characterizing the halo boundary (<a href="https://ui.adsabs.harvard.edu/abs/2021MNRAS.503.4250F/">Fong &amp; Han 2020</a>) and using the motion of nearby dwarf galaxies, I measured the <strong>depletion radius</strong> of the MW halo, a natural boundary separating a growing halo from the receding environment <button class='paper' id="2021ApJ...915L..18L">(Li &amp; Han 2021)</button>. The turnaround radius and the masses enclosed within the two radii are also estimated.</p>
+<p>We further went beyond the equilibrium region. Following recent progress in characterizing the halo boundary (<a href="https://ui.adsabs.harvard.edu/abs/2021MNRAS.503.4250F/">Fong &amp; Han 2020</a>) and using the motion of nearby dwarf galaxies, We measured the <strong>depletion radius</strong> of the MW halo, a natural boundary separating a growing halo from the receding environment <button class='paper' id="2021ApJ...915L..18L">(Li &amp; Han 2021)</button>. The turnaround radius and the masses enclosed within the two radii are also estimated.</p>
 </li>
 <li>
 <p>We compared the information content of <strong>different dynamical tracers</strong> and found that
@@ -81,7 +81,7 @@ the satellite galaxies are the best tracers for galactic halos <button class='pa
 and galaxy clusters <button class='paper' id="2021MNRAS.505.3907L">(Li, Q.+ 2021)</button>.</p>
 </li>
 </ul>
-<h3 id="machine-learning">Machine learning</h3>
+<h3 id="machine-learning-and-astronomy">Machine learning and astronomy</h3>
 <ul>
 <li>
 <p>The <strong>Gaussian process</strong> (GP) is a popular data-driven method for nonlinear regression; however, it is vulnerable to outlier contamination. We proposed a novel robust GP algorithm based on iterative trimming <button class='paper' id="2021A&C....3600483L">(ITGP, Li+ 2021)</button> <a href="https://github.com/syrte/robustgp">[code]</a>, which significantly outperforms the standard GP and its popular robust variants in most test cases with contaminated data. The advantages of robustness, efficiency, ease of implementation, and computational tractability make it useful to a wide range of problems.</p>
@@ -122,13 +122,6 @@ tippy('.paper', {
 </script>
 
 <!-- <button class="paper" data-tippy-content="The Response of Dark Matter Haloes to Gas Ejection: CuspCore II &lt;a href='https://ui.adsabs.harvard.edu/abs/2023MNRAS.518.5356L/' &gt;[ADS]&lt;/a&gt;"> (Li et al. 2022) </button>. -->
-
-<!-- 
-<script>
-$(document).tooltip({show: null});
-</script>
-<a href=" " title="This is some text I want to display.">This link has mouseover text.</a>
--->
 
 <!-- 
 <style>
