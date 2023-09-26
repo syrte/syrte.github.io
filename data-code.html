@@ -16,7 +16,7 @@
 
 <body id="index" class="home">
         <header id="banner" class="body">
-                <h1><a href="/">Zhaozhou Li <strong>Astrophysicist, Galactic dynamics and structure formation</strong></a></h1>
+                <h1><a href="/">Zhaozhou Li <strong>Astrophysics, Galactic dynamics and structure formation</strong></a></h1>
                 <nav><ul>
                     <li><a href="/">Home</a></li>
                     <li><a href="/research">Research</a></li>
@@ -28,21 +28,26 @@
 <section id="content" class="body">
     <!-- <h1 class="entry-title">Data and Code</h1> -->
     
-    <p>Papers that cited my codes: 
-<a href="https://scholar.google.com/scholar?start=0&amp;q=%22github.com/syrte%22">Google Scholar</a>,
-<a href="https://ui.adsabs.harvard.edu/search/fq=%7B!type%3Daqp%20v%3D%24fq_database%7D&amp;fq_database=(database%3Aastronomy)&amp;q=%20full%3A%22github.com%2Fsyrte%22&amp;sort=date%20desc%2C%20bibcode%20desc&amp;p_=0">ADS database</a>.</p>
+    <ul>
+<li>
+<p>My public <a href="https://github.com/syrte?tab=repositories&amp;q=&amp;type=source&amp;language=&amp;sort=">repos</a> and <a href="https://gist.github.com/syrte">gist code snippets</a></p>
+</li>
+<li>
+<p>Papers that cited my codes: <a href="https://scholar.google.com/scholar?start=0&amp;q=" title="github.com/syrte">Google Scholar</a>, <a href="https://search.arxiv.org/?query=" title="github.com%2Fsyrte">arXiv</a></p>
+</li>
+</ul>
 <h2 id="public-codes">Public codes</h2>
 <ul>
 <li>
-<p>Galactic Dynamics</p>
+<p>Galactic dynamics</p>
 <ul>
-<li><a href="https://github.com/syrte/CuspCore2"><strong>CuspCore2</strong></a>: Modeling the galaxy structural evolution due to feedback, coming soon.</li>
+<li><a href="https://github.com/syrte/CuspCore2"><strong>CuspCore2</strong></a>: Modeling the galaxy structural evolution due to feedback [coming soon].</li>
+<li><strong>empdf</strong>: dynamical modeling with data-driven distribution function [coming soon].</li>
 </ul>
 </li>
 <li>
-<p>Computation</p>
+<p>High performance computation</p>
 <ul>
-<li><a href="https://github.com/syrte/handy"><strong>handy</strong></a>: Personal Python library for statistics, computation, and plotting.</li>
 <li><a href="https://github.com/syrte/cyper"><strong>cyper</strong></a>: Cython performed inline: compile and run your Cython snippets on the fly.</li>
 </ul>
 </li>
@@ -58,8 +63,10 @@
 <ul>
 <li><a href="https://github.com/syrte/fortio"><strong>fortio</strong></a>: Python IO for Fortran unformatted binary files with variable-length records.</li>
 <li><a href="https://gist.github.com/syrte/028c5d7974c69db40a3208da47aba67a"><strong>nemo_io</strong></a>: Fast previewing and loading NEMO simulation snapshots.</li>
+<li><a href="https://github.com/syrte/h5attr"><strong>h5attr</strong></a>: Load and view hdf5 dataset in an easy way.</li>
 <li><a href="https://github.com/syrte/query_isochrone"><strong>query_isochrone</strong></a>: Querying PARSEC isochrones in batch.</li>
 <li><a href="https://gist.github.com/syrte/d5b8a3e7067afba3e701d7620f1571e1"><strong>virgo_query.py</strong></a>: Querying simulation data from virgo database.</li>
+<li><a href="https://gist.github.com/syrte/49d075af4a94eb40dc00fb795b9f7f3b#file-gaiadr2search-py"><strong>Gaiadr2Search.py</strong></a>: Search sky region among Gaia source catalog files.</li>
 </ul>
 </li>
 <li>
@@ -68,8 +75,50 @@
 <li><a href="https://github.com/syrte/scitextool"><strong>scitextool</strong></a>: Some routines for preparing astronomy paper submissions.</li>
 </ul>
 </li>
+<li>
+<p><a href="https://github.com/syrte/handy"><strong>handy</strong></a>: Personal Python library for statistics, computation, and plotting. Selected examples</p>
+<ul>
+<li><strong>binstats</strong>: Binned statistics of multivariate data</li>
+<li><strong>CubicSplineExtrap</strong>: Cubic spline with linear extrapolation</li>
+<li><strong>EqualGridInterpolator</strong>: Fast interpolator on ND equally spaced grids</li>
+<li><strong>indexed</strong>: Search given elements in a large array</li>
+<li><strong>simps2d</strong>, <strong>trapz2d</strong>: Simpsons and Trapezoidal integration of 2D array</li>
+<li><strong>KDTreeH5</strong>: Dump KDTree to hdf5 file and load back</li>
+<li><strong>query_radius_periodic</strong>: KDTree query in periodic boxes (before introduced in scipy)</li>
+<li><strong>mcd_ellipses</strong>: Plot minimum covariance ellipses</li>
 </ul>
+</li>
+<li>
+<p>Public Gists functions</p>
+<ul>
+<li><a href="https://gist.github.com/syrte/97efeef9416d28ba52d6163150b19be9#file-nbcat-py"><strong>nbcat.py</strong></a>: Display jupyter notebook in terminal.</li>
+<li><a href="https://gist.github.com/syrte/2fe184a6429df4986cc649ad4cd4dcc5#file-transform_ckdtree-py"><strong>transform_ckdtree.py</strong></a>: Scale/displace a cKDTree object without rebuilding the tree.</li>
+<li><a href="https://gist.github.com/syrte/a9c7590abcfb365381887eb505b0b887#file-skopt_kandasamy2015-py"><strong>skopt_Kandasamy2015.py</strong></a>: Bayesian active learning with skopt.</li>
+<li><a href="https://gist.github.com/syrte/9016ec5484fc4cffc6d8529cdab14142#file-scipy_spline_to_gsl-py"><strong>scipy_spline_to_gsl.pyx</strong></a>: Convert Scipy spline object to gsl in cython.</li>
+</ul>
+</li>
+</ul>
+<h2 id="open-source-contribution">Open Source Contribution</h2>
 <p>I am also an (occasional) contributor to various open source projects, including <a href="https://github.com/numpy/numpy">Numpy</a>, <a href="https://github.com/scipy/scipy">Scipy</a>, <a href="https://github.com/cython/cython">Cython</a>, <a href="https://github.com/yymao/adstex">adstex</a>, <a href="https://github.com/rainwoodman/sharedmem">sharedmem</a>, <a href="https://github.com/adrn/gala">gala</a>, <a href="https://github.com/timothydmorton/isochrones">isochrones</a>, and more.</p>
+<ul>
+<li>
+<p>Contribution: 
+    <strong>Numpy</strong> (new keyword "max_rows" for np.genfromtxt), 
+    <strong>Cython</strong> (bug fix for IPython magic), 
+    <strong>gala</strong> (cython compatibility enhancement), 
+    <strong>adstex</strong> (new option "--merge-other"), 
+    <strong>isochrones</strong> (new keyword "distance"; bug fixes), 
+    <strong>sharedmem</strong> (new functions creating arrays),
+    ...</p>
+</li>
+<li>
+<p>Typo fix, document improvement: Scipy, halotools, george, SatGen, pyviz, lmfit-py, KDEpy, ezpadova, ...</p>
+</li>
+<li>
+<p>Pending/unfinished bug fixes: matplotlib, <a href="https://github.com/dflemin3/approxposterior">dflemin3/approxposterior</a>, <a href="https://github.com/gxli/Constrained-Diffusion-Decomposition">gxli/Constrained-Diffusion-Decomposition</a></p>
+</li>
+</ul>
+<p>I obtained the <strong>Mars 2020 Contributor</strong> and <strong>Arctic Code Vault Contributor</strong> badges for my contribution to numpy and scipy.</p>
 <h2 id="data">Data</h2>
 <ul>
 <li><a href="https://github.com/syrte/mw_sats_kin"><strong>Milky Way mass profile and satellite kinematics</strong></a><br>
