@@ -1,185 +1,305 @@
 // ADS export:
 // \t"%R":{\n\t\t"title":"%T",\n\t\t"year":"%Y",\n\t\t"url":"%u",\n\t\t"author":"%8.3e"\n\t},
 var paperlist = {
-     "2024arXiv240302399W":{
-        "title":"The true number density of massive galaxies in the early Universe revealed by JWST/MIRI",
-        "year":"2024",
-        "url":"https://ui.adsabs.harvard.edu/abs/2024arXiv240302399W",
-        "author":"Wang, T., Sun, H., Zhou, L., and 12 colleagues"
-    },
-     "2024arXiv240202740G":{
-        "title":"Phase Space Distribution Functions and Energy Distributions of Dark Matter Particles in Haloes",
-        "year":"2024",
-        "url":"https://ui.adsabs.harvard.edu/abs/2024arXiv240202740G",
-        "author":"Gross, A., Li, Z., and Qian, Y.-Z."
-    },
-     "2024MNRAS.528.3854Y":{
-        "title":"Are odd radio circles virial shocks around massive galaxies? Implications for cosmic-ray diffusion in the circumgalactic medium",
-        "year":"2024",
-        "url":"https://ui.adsabs.harvard.edu/abs/2024MNRAS.528.3854Y",
-        "author":"Yamasaki, S., Sarkar, K.C., and Li, Z."
-    },
-     "2022zndo....593786P":{
-        "title":"adrn/gala: v1.8.1",
-        "year":"2024",
-        "url":"https://ui.adsabs.harvard.edu/abs/2022zndo....593786P",
-        "author":"Price-Whelan, A., Wagg, T., Sipőcz, B., and 13 colleagues"
-    },
-     "2023SCPMA..6629811X":{
-        "title":"DESI Legacy Imaging Surveys Data Release 9: Cosmological constraints from galaxy clustering and weak lensing using the minimal bias model",
-        "year":"2023",
-        "url":"https://ui.adsabs.harvard.edu/abs/2023SCPMA..6629811X",
-        "author":"Xu, H., Li, H., Zhang, J., and 11 colleagues"
-    },
-     "2023arXiv231114804C":{
-        "title":"Evidence for a Shallow Evolution in the Volume Densities of Massive Galaxies at $z=4$ to $8$ from CEERS",
-        "year":"2023",
-        "url":"https://ui.adsabs.harvard.edu/abs/2023arXiv231114804C",
-        "author":"Chworowsky, K., Finkelstein, S.L., Boylan-Kolchin, M., and 36 colleagues"
-    },
-     "2023arXiv231114662L":{
-        "title":"Feedback-Free Starbursts at Cosmic Dawn: Observable Predictions for JWST",
-        "year":"2023",
-        "url":"https://ui.adsabs.harvard.edu/abs/2023arXiv231114662L",
-        "author":"Li, Z., Dekel, A., Sarkar, K.C., Aung, H., Giavalisco, M., Mandelker, N., and Tacchella, S."
-    },
-     "2023arXiv231003021L":{
-        "title":"Effects of feedback-free starburst galaxies on the 21-cm signal and reionization history",
-        "year":"2023",
-        "url":"https://ui.adsabs.harvard.edu/abs/2023arXiv231003021L",
-        "author":"Libanore, S., Flitter, J., Kovetz, E.D., Li, Z., and Dekel, A."
-    },
-     "2023ApJ...956...91W":{
-        "title":"Unraveling the Complexity of Dwarf Galaxy Dynamics: A Study of Binary Orbital Motions",
-        "year":"2023",
-        "url":"https://ui.adsabs.harvard.edu/abs/2023ApJ...956...91W",
-        "author":"Wang, W., Zhu, L., Jing, Y., and 8 colleagues"
-    },
-     "2023DDA....5420002L":{
-        "title":"Modeling the formation of dark-matter deficient galaxies",
-        "year":"2023",
-        "url":"https://ui.adsabs.harvard.edu/abs/2023DDA....5420002L",
-        "author":"Li, Z., Dekel, A., Mandelker, N., Freundlich, J., Jiang, F., and François, T."
-    },
-     "2023MNRAS.523.3201D":{
+    "2023MNRAS.523.3201D":{
         "title":"Efficient formation of massive galaxies at cosmic dawn by feedback-free starbursts",
         "year":"2023",
         "url":"https://ui.adsabs.harvard.edu/abs/2023MNRAS.523.3201D",
         "author":"Dekel, A., Sarkar, K.C., Birnboim, Y., Mandelker, N., and Li, Z."
     },
-     "2023ApJ...953...37G":{
-        "title":"Physical Evolution of Dark Matter Halo around the Depletion Boundary",
-        "year":"2023",
-        "url":"https://ui.adsabs.harvard.edu/abs/2023ApJ...953...37G",
-        "author":"Gao, H., Han, J., Fong, M., Jing, Y.P., and Li, Z."
-    },
-     "2023MNRAS.518.5356L":{
-        "title":"The response of dark matter haloes to gas ejection: CuspCore II",
-        "year":"2023",
-        "url":"https://ui.adsabs.harvard.edu/abs/2023MNRAS.518.5356L",
-        "author":"Li, Z., Dekel, A., Mandelker, N., Freundlich, J., and François, T.L."
-    },
-     "2022ApJ...941..108W":{
-        "title":"Is the Core-cusp Problem a Matter of Perspective? Jeans Anisotropic Modeling against Numerical Simulations",
-        "year":"2022",
-        "url":"https://ui.adsabs.harvard.edu/abs/2022ApJ...941..108W",
-        "author":"Wang, W., Zhu, L., Li, Z., and 14 colleagues"
-    },
-     "2022MNRAS.515.3938S":{
-        "title":"A machine learning approach to infer the accreted stellar mass fractions of central galaxies in the TNG100 simulation",
-        "year":"2022",
-        "url":"https://ui.adsabs.harvard.edu/abs/2022MNRAS.515.3938S",
-        "author":"Shi, R., Wang, W., Li, Z., Han, J., Shi, J., Rodriguez-Gomez, V., Peng, Y., and Li, Q."
-    },
-     "2022DDA....5320104L":{
-        "title":"Modeling the Response of Dark Matter Halos to Gas Ejection",
-        "year":"2022",
-        "url":"https://ui.adsabs.harvard.edu/abs/2022DDA....5320104L",
-        "author":"Li, Z., Dekel, A., Mandelker, N., and Freundlich, J."
-    },
-     "2022ApJ...929..120D":{
-        "title":"The Universal Specific Merger Rate of Dark Matter Halos",
-        "year":"2022",
-        "url":"https://ui.adsabs.harvard.edu/abs/2022ApJ...929..120D",
-        "author":"Dong, F., Zhao, D., Han, J., Li, Z., Jing, Y., and Yang, X."
-    },
-     "2021MNRAS.505.3907L":{
-        "title":"What to expect from dynamical modelling of cluster haloes - I. The information content of different dynamical tracers",
-        "year":"2021",
-        "url":"https://ui.adsabs.harvard.edu/abs/2021MNRAS.505.3907L",
-        "author":"Li, Q., Han, J., Wang, W., Cui, W., Li, Z., and Yang, X."
-    },
-     "2021ApJ...915L..18L":{
-        "title":"The Outermost Edges of the Milky Way Halo from Galaxy Kinematics",
-        "year":"2021",
-        "url":"https://ui.adsabs.harvard.edu/abs/2021ApJ...915L..18L",
-        "author":"Li, Z.-Z. and Han, J."
-    },
-     "2021A&C....3600483L":{
-        "title":"Robust Gaussian process regression based on iterative trimming",
-        "year":"2021",
-        "url":"https://ui.adsabs.harvard.edu/abs/2021A&C....3600483L",
-        "author":"Li, Z.-Z., Li, L., and Shao, Z."
-    },
-     "2020ApJ...905..177L":{
-        "title":"Orbital Distribution of Infalling Satellite Halos across Cosmic Time",
-        "year":"2020",
-        "url":"https://ui.adsabs.harvard.edu/abs/2020ApJ...905..177L",
-        "author":"Li, Z.-Z., Zhao, D.-H., Jing, Y.P., Han, J., and Dong, F.-Y."
-    },
-     "2020PDU....2900571W":{
-        "title":"Weak equivalence principle, swampland and H<SUB>0</SUB> tension with fast single radio bursts FRB 180924 and FRB 190523",
-        "year":"2020",
-        "url":"https://ui.adsabs.harvard.edu/abs/2020PDU....2900571W",
-        "author":"Wang, D., Li, Z., and Zhang, J."
-    },
-     "2020ApJ...901...49L":{
-        "title":"Modeling Unresolved Binaries of Open Clusters in the Color-Magnitude Diagram. I. Method and Application of NGC 3532",
-        "year":"2020",
-        "url":"https://ui.adsabs.harvard.edu/abs/2020ApJ...901...49L",
-        "author":"Li, L., Shao, Z., Li, Z.-Z., Yu, J., Zhong, J., and Chen, L."
-    },
-     "2020SCPMA..6309801W":{
+    "2020SCPMA..6309801W":{
         "title":"The mass of our Milky Way",
         "year":"2020",
         "url":"https://ui.adsabs.harvard.edu/abs/2020SCPMA..6309801W",
         "author":"Wang, W., Han, J., Cautun, M., Li, Z., and Ishigaki, M.N."
     },
-     "2020ApJ...894...10L":{
+    "2024A&A...690A.108L":{
+        "title":"Feedback-free starbursts at cosmic dawn: Observable predictions for JWST",
+        "year":"2024",
+        "url":"https://ui.adsabs.harvard.edu/abs/2024A&A...690A.108L",
+        "author":"Li, Z., Dekel, A., Sarkar, K.C., Aung, H., Giavalisco, M., Mandelker, N., and Tacchella, S."
+    },
+    "2020ApJ...894...10L":{
         "title":"Constraining the Milky Way Mass Profile with Phase-space Distribution of Satellite Galaxies",
         "year":"2020",
         "url":"https://ui.adsabs.harvard.edu/abs/2020ApJ...894...10L",
         "author":"Li, Z.-Z., Qian, Y.-Z., Han, J., Li, T.S., Wang, W., and Jing, Y.P."
     },
-     "2020IAUS..353..109H":{
-        "title":"Satellite galaxies as better tracers of the Milky Way halo mass",
+    "2020ApJ...901...49L":{
+        "title":"Modeling Unresolved Binaries of Open Clusters in the Color-Magnitude Diagram. I. Method and Application of NGC 3532",
         "year":"2020",
-        "url":"https://ui.adsabs.harvard.edu/abs/2020IAUS..353..109H",
-        "author":"Han, J., Wang, W., and Li, Z."
+        "url":"https://ui.adsabs.harvard.edu/abs/2020ApJ...901...49L",
+        "author":"Li, L., Shao, Z., Li, Z.-Z., Yu, J., Zhong, J., and Chen, L."
     },
-     "2019ApJ...886...69L":{
-        "title":"A Versatile and Accurate Method for Halo Mass Determination from Phase-space Distribution of Satellite Galaxies",
-        "year":"2019",
-        "url":"https://ui.adsabs.harvard.edu/abs/2019ApJ...886...69L",
-        "author":"Li, Z.-Z., Qian, Y.-Z., Han, J., Wang, W., and Jing, Y.P."
+    "2024AJ....168..113C":{
+        "title":"Evidence for a Shallow Evolution in the Volume Densities of Massive Galaxies at z = 4–8 from CEERS",
+        "year":"2024",
+        "url":"https://ui.adsabs.harvard.edu/abs/2024AJ....168..113C",
+        "author":"Chworowsky, K., Finkelstein, S.L., Boylan-Kolchin, M., and 36 colleagues"
     },
-     "2019ApJ...875L..11Z":{
-        "title":"The First Constraint from SDSS Galaxy-Galaxy Weak Lensing Measurements on Interacting Dark Energy Models",
-        "year":"2019",
-        "url":"https://ui.adsabs.harvard.edu/abs/2019ApJ...875L..11Z",
-        "author":"Zhang, J., An, R., Luo, W., Li, Z., Liao, S., and Wang, B."
+    "2025ApJ...988L..35W":{
+        "title":"JWST/MIRI Reveals the True Number Density of Massive Galaxies in the Early Universe",
+        "year":"2025",
+        "url":"https://ui.adsabs.harvard.edu/abs/2025ApJ...988L..35W",
+        "author":"Wang, T., Sun, H., Zhou, L., and 14 colleagues"
     },
-     "2018PhRvD..98j3530Z":{
+    "2018PhRvD..98j3530Z":{
         "title":"Fully self-consistent cosmological simulation pipeline for interacting dark energy models",
         "year":"2018",
         "url":"https://ui.adsabs.harvard.edu/abs/2018PhRvD..98j3530Z",
         "author":"Zhang, J., An, R., Liao, S., Luo, W., Li, Z., and Wang, B."
     },
-     "2017ApJ...850..116L":{
+    "2025arXiv250315594P":{
+        "title":"The rise of the galactic empire: luminosity functions at $z\sim17$ and $z\sim25$ estimated with the MIDIS$+$NGDEEP ultra-deep JWST/NIRCam dataset",
+        "year":"2025",
+        "url":"https://ui.adsabs.harvard.edu/abs/2025arXiv250315594P",
+        "author":"Pérez-González, P.G., Östlin, G., Costantin, L., and 39 colleagues"
+    },
+    "2017ApJ...850..116L":{
         "title":"Determination of Dark Matter Halo Mass from Dynamics of Satellite Galaxies",
         "year":"2017",
         "url":"https://ui.adsabs.harvard.edu/abs/2017ApJ...850..116L",
         "author":"Li, Z.-Z., Jing, Y.P., Qian, Y.-Z., Yuan, Z., and Zhao, D.-H."
+    },
+    "2020ApJ...905..177L":{
+        "title":"Orbital Distribution of Infalling Satellite Halos across Cosmic Time",
+        "year":"2020",
+        "url":"https://ui.adsabs.harvard.edu/abs/2020ApJ...905..177L",
+        "author":"Li, Z.-Z., Zhao, D.-H., Jing, Y.P., Han, J., and Dong, F.-Y."
+    },
+    "2023ApJ...953...37G":{
+        "title":"Physical Evolution of Dark Matter Halo around the Depletion Boundary",
+        "year":"2023",
+        "url":"https://ui.adsabs.harvard.edu/abs/2023ApJ...953...37G",
+        "author":"Gao, H., Han, J., Fong, M., Jing, Y.P., and Li, Z."
+    },
+    "2019ApJ...875L..11Z":{
+        "title":"The First Constraint from SDSS Galaxy-Galaxy Weak Lensing Measurements on Interacting Dark Energy Models",
+        "year":"2019",
+        "url":"https://ui.adsabs.harvard.edu/abs/2019ApJ...875L..11Z",
+        "author":"Zhang, J., An, R., Luo, W., Li, Z., Liao, S., and Wang, B."
+    },
+    "2021MNRAS.505.3907L":{
+        "title":"What to expect from dynamical modelling of cluster haloes - I. The information content of different dynamical tracers",
+        "year":"2021",
+        "url":"https://ui.adsabs.harvard.edu/abs/2021MNRAS.505.3907L",
+        "author":"Li, Q., Han, J., Wang, W., Cui, W., Li, Z., and Yang, X."
+    },
+    "2021A&C....3600483L":{
+        "title":"Robust Gaussian process regression based on iterative trimming",
+        "year":"2021",
+        "url":"https://ui.adsabs.harvard.edu/abs/2021A&C....3600483L",
+        "author":"Li, Z.-Z., Li, L., and Shao, Z."
+    },
+    "2025A&A...695A..97D":{
+        "title":"Growth of massive black holes in FFB galaxies at cosmic dawn",
+        "year":"2025",
+        "url":"https://ui.adsabs.harvard.edu/abs/2025A&A...695A..97D",
+        "author":"Dekel, A., Stone, N.C., Chowdhury, D.D., Gilbaum, S., Li, Z., Mandelker, N., and van den Bosch, F.C."
+    },
+    "2023MNRAS.518.5356L":{
+        "title":"The response of dark matter haloes to gas ejection: CuspCore II",
+        "year":"2023",
+        "url":"https://ui.adsabs.harvard.edu/abs/2023MNRAS.518.5356L",
+        "author":"Li, Z., Dekel, A., Mandelker, N., Freundlich, J., and François, T.L."
+    },
+    "2019ApJ...886...69L":{
+        "title":"A Versatile and Accurate Method for Halo Mass Determination from Phase-space Distribution of Satellite Galaxies",
+        "year":"2019",
+        "url":"https://ui.adsabs.harvard.edu/abs/2019ApJ...886...69L",
+        "author":"Li, Z.-Z., Qian, Y.-Z., Han, J., Wang, W., and Jing, Y.P."
+    },
+    "2023SCPMA..6629811X":{
+        "title":"DESI Legacy Imaging Surveys Data Release 9: Cosmological constraints from galaxy clustering and weak lensing using the minimal bias model",
+        "year":"2023",
+        "url":"https://ui.adsabs.harvard.edu/abs/2023SCPMA..6629811X",
+        "author":"Xu, H., Li, H., Zhang, J., and 11 colleagues"
+    },
+    "2024ApJ...976..187H":{
+        "title":"How Do the Velocity Anisotropies of Halo Stars, Dark Matter, and Satellite Galaxies Depend on Host Halo Properties?",
+        "year":"2024",
+        "url":"https://ui.adsabs.harvard.edu/abs/2024ApJ...976..187H",
+        "author":"He, J., Wang, W., Li, Z., and 8 colleagues"
+    },
+    "2022ApJ...929..120D":{
+        "title":"The Universal Specific Merger Rate of Dark Matter Halos",
+        "year":"2022",
+        "url":"https://ui.adsabs.harvard.edu/abs/2022ApJ...929..120D",
+        "author":"Dong, F., Zhao, D., Han, J., Li, Z., Jing, Y., and Yang, X."
+    },
+    "2021ApJ...915L..18L":{
+        "title":"The Outermost Edges of the Milky Way Halo from Galaxy Kinematics",
+        "year":"2021",
+        "url":"https://ui.adsabs.harvard.edu/abs/2021ApJ...915L..18L",
+        "author":"Li, Z.-Z. and Han, J."
+    },
+    "2022ApJ...941..108W":{
+        "title":"Is the Core-cusp Problem a Matter of Perspective? Jeans Anisotropic Modeling against Numerical Simulations",
+        "year":"2022",
+        "url":"https://ui.adsabs.harvard.edu/abs/2022ApJ...941..108W",
+        "author":"Wang, W., Zhu, L., Li, Z., and 14 colleagues"
+    },
+    "2025ApJ...981..108H":{
+        "title":"Why Artificial Disruption Is Not a Concern for Current Cosmological Simulations",
+        "year":"2025",
+        "url":"https://ui.adsabs.harvard.edu/abs/2025ApJ...981..108H",
+        "author":"He, F., Han, J., and Li, Z."
+    },
+    "2025MNRAS.538.1442L":{
+        "title":"EMPDF: inferring the Milky Way mass with data-driven distribution function in phase space",
+        "year":"2025",
+        "url":"https://ui.adsabs.harvard.edu/abs/2025MNRAS.538.1442L",
+        "author":"Li, Z., Han, J., Wang, W., Qian, Y.-Z., Li, Q., Jing, Y., and Li, T.S."
+    },
+    "2024MNRAS.528.3854Y":{
+        "title":"Are odd radio circles virial shocks around massive galaxies? Implications for cosmic-ray diffusion in the circumgalactic medium",
+        "year":"2024",
+        "url":"https://ui.adsabs.harvard.edu/abs/2024MNRAS.528.3854Y",
+        "author":"Yamasaki, S., Sarkar, K.C., and Li, Z."
+    },
+    "2022MNRAS.515.3938S":{
+        "title":"A machine learning approach to infer the accreted stellar mass fractions of central galaxies in the TNG100 simulation",
+        "year":"2022",
+        "url":"https://ui.adsabs.harvard.edu/abs/2022MNRAS.515.3938S",
+        "author":"Shi, R., Wang, W., Li, Z., Han, J., Shi, J., Rodriguez-Gomez, V., Peng, Y., and Li, Q."
+    },
+    "2024MNRAS.532..149L":{
+        "title":"Effects of feedback-free starburst galaxies on the 21-cm signal and reionization history",
+        "year":"2024",
+        "url":"https://ui.adsabs.harvard.edu/abs/2024MNRAS.532..149L",
+        "author":"Libanore, S., Flitter, J., Kovetz, E.D., Li, Z., and Dekel, A."
+    },
+    "2020PDU....2900571W":{
+        "title":"Weak equivalence principle, swampland and H<SUB>0</SUB> tension with fast single radio bursts FRB 180924 and FRB 190523",
+        "year":"2020",
+        "url":"https://ui.adsabs.harvard.edu/abs/2020PDU....2900571W",
+        "author":"Wang, D., Li, Z., and Zhang, J."
+    },
+    "2020IAUS..353..109H":{
+        "title":"Satellite galaxies as better tracers of the Milky Way halo mass",
+        "year":"2020",
+        "url":"https://ui.adsabs.harvard.edu/abs/2020IAUS..353..109H",
+        "author":"Han, J., Wang, W., and Li, Z."
+    },
+    "2025arXiv250418616L":{
+        "title":"Insights on Metal Enrichment and Environmental Effect at $z\approx5-7$ with JWST ASPIRE/EIGER and Chemical Evolution Model",
+        "year":"2025",
+        "url":"https://ui.adsabs.harvard.edu/abs/2025arXiv250418616L",
+        "author":"Li, Z., Kakiichi, K., Christensen, L., and 15 colleagues"
+    },
+    "2023ApJ...956...91W":{
+        "title":"Unraveling the Complexity of Dwarf Galaxy Dynamics: A Study of Binary Orbital Motions",
+        "year":"2023",
+        "url":"https://ui.adsabs.harvard.edu/abs/2023ApJ...956...91W",
+        "author":"Wang, W., Zhu, L., Jing, Y., and 8 colleagues"
+    },
+    "2025arXiv250612129L":{
+        "title":"A 13-Billion-Year View of Galaxy Growth: Metallicity Gradient Evolution from the Local Universe to $z=9$ with JWST and Archival Surveys",
+        "year":"2025",
+        "url":"https://ui.adsabs.harvard.edu/abs/2025arXiv250612129L",
+        "author":"Li, Z., Cai, Z., Wang, X., and 25 colleagues"
+    },
+    "2024zndo..13377376P":{
+        "title":"adrn/gala: v1.9.1",
+        "year":"2024",
+        "url":"https://ui.adsabs.harvard.edu/abs/2024zndo..13377376P",
+        "author":"Price-Whelan, A., Souchereau, H., Wagg, T., and 16 colleagues"
+    },
+    "2024zndo..10449846P":{
+        "title":"adrn/gala: v1.8.1",
+        "year":"2024",
+        "url":"https://ui.adsabs.harvard.edu/abs/2024zndo..10449846P",
+        "author":"Price-Whelan, A., Wagg, T., Sipőcz, B., and 13 colleagues"
+    },
+    "2024ApJ...973...82S":{
+        "title":"Inferring the Mass Content of Galaxy Clusters with Satellite Kinematics and Jeans Anisotropic Modeling",
+        "year":"2024",
+        "url":"https://ui.adsabs.harvard.edu/abs/2024ApJ...973...82S",
+        "author":"Shi, R., Wang, W., Li, Z., and 7 colleagues"
+    },
+    "2022zndo....593786P":{
+        "title":"adrn/gala: v1.10.0",
+        "year":"2025",
+        "url":"https://ui.adsabs.harvard.edu/abs/2022zndo....593786P",
+        "author":"Price-Whelan, A., Garrison, L., Souchereau, H., and 16 colleagues"
+    },
+    "2024MNRAS.530..836G":{
+        "title":"Phase space distribution functions and energy distributions of dark matter particles in haloes",
+        "year":"2024",
+        "url":"https://ui.adsabs.harvard.edu/abs/2024MNRAS.530..836G",
+        "author":"Gross, A., Li, Z., and Qian, Y.-Z."
+    },
+    "2023zndo...8217584P":{
+        "title":"adrn/gala: v1.7.1",
+        "year":"2023",
+        "url":"https://ui.adsabs.harvard.edu/abs/2023zndo...8217584P",
+        "author":"Price-Whelan, A., Sipőcz, B., Wagg, T., and 12 colleagues"
+    },
+    "2021zndo....591491F":{
+        "title":"dfm/corner.py: v2.2.3",
+        "year":"2024",
+        "url":"https://ui.adsabs.harvard.edu/abs/2021zndo....591491F",
+        "author":"Foreman-Mackey, D., Price-Whelan, A., Vousden, W., and 25 colleagues"
+    },
+    "2025arXiv250611664D":{
+        "title":"From FFB Starbursts at Cosmic Dawn to Quenching at Cosmic Morning: Hi-z Galaxy Bimodality",
+        "year":"2025",
+        "url":"https://ui.adsabs.harvard.edu/abs/2025arXiv250611664D",
+        "author":"Dekel, A., Mandelker, N., Li, Z., Yao, Z., Zhu, B., Lapiner, S., Dutta Chowdhury, D., and Ginzburg, O."
+    },
+    "2024ApJ...976...19T":{
+        "title":"The Mass and Redshift Dependence of Halo Star Clustering",
+        "year":"2024",
+        "url":"https://ui.adsabs.harvard.edu/abs/2024ApJ...976...19T",
+        "author":"Tan, Z., Wang, W., He, J., Zhang, Y., Rodriguez-Gomez, V., Han, J., Li, Z., and Yang, X."
+    },
+    "2025arXiv250614896W":{
+        "title":"Overmassive Black holes live in compact galaxies in the early Universe",
+        "year":"2025",
+        "url":"https://ui.adsabs.harvard.edu/abs/2025arXiv250614896W",
+        "author":"Wu, Y., Wang, T., Liu, D., and 9 colleagues"
+    },
+    "2025MNRAS.538.1843G":{
+        "title":"Scaling relations in the phase-space structure of dark matter haloes",
+        "year":"2025",
+        "url":"https://ui.adsabs.harvard.edu/abs/2025MNRAS.538.1843G",
+        "author":"Gross, A., Li, Z., and Qian, Y.-Z."
+    },
+    "2023DDA....5420002L":{
+        "title":"Modeling the formation of dark-matter deficient galaxies",
+        "year":"2023",
+        "url":"https://ui.adsabs.harvard.edu/abs/2023DDA....5420002L",
+        "author":"Li, Z., Dekel, A., Mandelker, N., Freundlich, J., Jiang, F., and François, T."
+    },
+    "2023APS..APRC14003G":{
+        "title":"Distribution Functions of Dark Matter Halos",
+        "year":"2023",
+        "url":"https://ui.adsabs.harvard.edu/abs/2023APS..APRC14003G",
+        "author":"Gross, A., Qian, Y.-Z., and Li, Z."
+    },
+    "2022eas..conf.2263L":{
+        "title":"Modeling the Response of Dark Matter Halos to Gas Ejection",
+        "year":"2022",
+        "url":"https://ui.adsabs.harvard.edu/abs/2022eas..conf.2263L",
+        "author":"Li, Z., Dekel, A., Mandelker, N., and Freundlich, J."
+    },
+    "2022eas..conf.2068L":{
+        "title":"A novel robust Gaussian process algorithm and empirical main-sequence ridgeline in the color-magnitude diagram",
+        "year":"2022",
+        "url":"https://ui.adsabs.harvard.edu/abs/2022eas..conf.2068L",
+        "author":"Li, L. and Li, Z."
+    },
+    "2022eas..conf.2062L":{
+        "title":"Orbital distribution of infalling satellite halos across cosmic time",
+        "year":"2022",
+        "url":"https://ui.adsabs.harvard.edu/abs/2022eas..conf.2062L",
+        "author":"Li, Z."
+    },
+    "2022DDA....5320104L":{
+        "title":"Modeling the Response of Dark Matter Halos to Gas Ejection",
+        "year":"2022",
+        "url":"https://ui.adsabs.harvard.edu/abs/2022DDA....5320104L",
+        "author":"Li, Z., Dekel, A., Mandelker, N., and Freundlich, J."
     },
 };
 
